@@ -1,0 +1,322 @@
+{
+  "name": "Sun",
+  "mass": 1.9885e30,
+  "radius": 696340000,
+  "color": "#FFFF00",
+  "position": { "x": 0, "y": 0 },
+  "velocity": { "x": 0, "y": 0 },
+  "children": [
+    {
+      "name": "Mercury",
+      "mass": 3.3011e23,
+      "radius": 2439700,
+      "color": "#B2B2B2",
+      "orbitalElements": {
+        "a": 57909200000,
+        "e": 0.20563,
+        "argPeriapsis": 77.456,
+        "meanAnomalyAtEpoch": 252.25
+      }
+    },
+    {
+      "name": "Venus",
+      "mass": 4.8675e24,
+      "radius": 6051800,
+      "color": "#FFD580",
+      "orbitalElements": {
+        "a": 108209000000,
+        "e": 0.006772,
+        "argPeriapsis": 131.532,
+        "meanAnomalyAtEpoch": 181.98
+      }
+    },
+    {
+      "name": "Earth",
+      "mass": 5.97237e24,
+      "radius": 6371000,
+      "color": "#3399FF",
+      "orbitalElements": {
+        "a": 149597870000,
+        "e": 0.01671,
+        "argPeriapsis": 102.947,
+        "meanAnomalyAtEpoch": 100.464
+      },
+      "children": [
+        {
+          "name": "Moon",
+          "mass": 7.35e22,
+          "radius": 1737000,
+          "color": "#CCCCCC",
+          "orbitalElements": {
+            "a": 384400000,
+            "e": 0.0549,
+            "argPeriapsis": 318.15,
+            "meanAnomalyAtEpoch": 135.27
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "mass": 6.4171e23,
+      "radius": 3389500,
+      "color": "#FF3300",
+      "orbitalElements": {
+        "a": 227939200000,
+        "e": 0.093412,
+        "argPeriapsis": 336.04,
+        "meanAnomalyAtEpoch": 355.453
+      },
+      "children": [
+        {
+          "name": "Phobos",
+          "mass": 1.07e16,
+          "radius": 11266,
+          "color": "#888888",
+          "orbitalElements": {
+            "a": 9378000,
+            "e": 0.0151,
+            "argPeriapsis": 150,
+            "meanAnomalyAtEpoch": 45
+          }
+        },
+        {
+          "name": "Deimos",
+          "mass": 1.48e15,
+          "radius": 6200,
+          "color": "#999999",
+          "orbitalElements": {
+            "a": 23460000,
+            "e": 0.0002,
+            "argPeriapsis": 90,
+            "meanAnomalyAtEpoch": 180
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "mass": 1.8982e27,
+      "radius": 69911000,
+      "color": "#FFCC66",
+      "orbitalElements": {
+        "a": 778570000000,
+        "e": 0.048392,
+        "argPeriapsis": 14.753,
+        "meanAnomalyAtEpoch": 34.404
+      },
+      "children": [
+        {
+          "name": "Io",
+          "mass": 8.93e22,
+          "radius": 1821500,
+          "color": "#FFDD99",
+          "orbitalElements": {
+            "a": 421700000,
+            "e": 0.0041,
+            "argPeriapsis": 90,
+            "meanAnomalyAtEpoch": 200
+          }
+        },
+        {
+          "name": "Europa",
+          "mass": 4.80e22,
+          "radius": 1560800,
+          "color": "#EEEEFF",
+          "orbitalElements": {
+            "a": 671100000,
+            "e": 0.009,
+            "argPeriapsis": 90,
+            "meanAnomalyAtEpoch": 45
+          }
+        },
+        {
+          "name": "Ganymede",
+          "mass": 1.48e23,
+          "radius": 2634100,
+          "color": "#CCCCCC",
+          "orbitalElements": {
+            "a": 1070400000,
+            "e": 0.0013,
+            "argPeriapsis": 150,
+            "meanAnomalyAtEpoch": 90
+          }
+        },
+        {
+          "name": "Callisto",
+          "mass": 1.08e23,
+          "radius": 2410300,
+          "color": "#BBBBBB",
+          "orbitalElements": {
+            "a": 1882700000,
+            "e": 0.0074,
+            "argPeriapsis": 120,
+            "meanAnomalyAtEpoch": 270
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "mass": 5.6834e26,
+      "radius": 58232000,
+      "color": "#FFCC99",
+      "orbitalElements": {
+        "a": 1433530000000,
+        "e": 0.05415,
+        "argPeriapsis": 92.431,
+        "meanAnomalyAtEpoch": 49.944
+      },
+      "children": [
+        {
+          "name": "Titan",
+          "mass": 1.35e23,
+          "radius": 2575000,
+          "color": "#FFEECC",
+          "orbitalElements": {
+            "a": 1221870000,
+            "e": 0.0288,
+            "argPeriapsis": 90,
+            "meanAnomalyAtEpoch": 135
+          }
+        },
+        {
+          "name": "Rhea",
+          "mass": 2.31e21,
+          "radius": 763800,
+          "color": "#DDDDDD",
+          "orbitalElements": {
+            "a": 527040000,
+            "e": 0.001,
+            "argPeriapsis": 0,
+            "meanAnomalyAtEpoch": 0
+          }
+        },
+        {
+          "name": "Iapetus",
+          "mass": 1.81e21,
+          "radius": 734500,
+          "color": "#EEEEEE",
+          "orbitalElements": {
+            "a": 3561300000,
+            "e": 0.0286,
+            "argPeriapsis": 90,
+            "meanAnomalyAtEpoch": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Uranus",
+      "mass": 8.681e25,
+      "radius": 25362000,
+      "color": "#99FFFF",
+      "orbitalElements": {
+        "a": 2875040000000,
+        "e": 0.047167,
+        "argPeriapsis": 170.964,
+        "meanAnomalyAtEpoch": 313.232
+      },
+      "children": [
+        {
+          "name": "Titania",
+          "mass": 3.53e21,
+          "radius": 788900,
+          "color": "#DDDDFF",
+          "orbitalElements": {
+            "a": 436300000,
+            "e": 0.0011,
+            "argPeriapsis": 0,
+            "meanAnomalyAtEpoch": 0
+          }
+        },
+        {
+          "name": "Oberon",
+          "mass": 3.01e21,
+          "radius": 761400,
+          "color": "#CCCCEE",
+          "orbitalElements": {
+            "a": 583500000,
+            "e": 0.0014,
+            "argPeriapsis": 0,
+            "meanAnomalyAtEpoch": 180
+          }
+        }
+      ]
+    },
+    {
+      "name": "Neptune",
+      "mass": 1.02413e26,
+      "radius": 24622000,
+      "color": "#6666FF",
+      "orbitalElements": {
+        "a": 4504300000000,
+        "e": 0.008585,
+        "argPeriapsis": 44.971,
+        "meanAnomalyAtEpoch": 304.88
+      },
+      "children": [
+        {
+          "name": "Triton",
+          "mass": 2.14e22,
+          "radius": 1353400,
+          "color": "#AAAAFF",
+          "orbitalElements": {
+            "a": 354800000,
+            "e": 0.000016,
+            "argPeriapsis": 0,
+            "meanAnomalyAtEpoch": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pluto",
+      "mass": 1.31e22,
+      "radius": 1188300,
+      "color": "#CCCCCC",
+      "orbitalElements": {
+        "a": 5906380000000,
+        "e": 0.2488,
+        "argPeriapsis": 113.763,
+        "meanAnomalyAtEpoch": 14.53
+      }
+    },
+    {
+      "name": "Ceres",
+      "mass": 9.393e20,
+      "radius": 473000,
+      "color": "#AAAAAA",
+      "orbitalElements": {
+        "a": 414000000000,
+        "e": 0.0758,
+        "argPeriapsis": 73.597,
+        "meanAnomalyAtEpoch": 95
+      }
+    },
+    {
+      "name": "Eris",
+      "mass": 1.66e22,
+      "radius": 1163000,
+      "color": "#CCCCFF",
+      "orbitalElements": {
+        "a": 10100000000000,
+        "e": 0.44,
+        "argPeriapsis": 151.5,
+        "meanAnomalyAtEpoch": 205
+      }
+    },
+    {
+      "name": "Halley",
+      "mass": 2.2e14,
+      "radius": 11000,
+      "color": "#FFFFFF",
+      "orbitalElements": {
+        "a": 2660000000000,
+        "e": 0.967,
+        "argPeriapsis": 111.3,
+        "meanAnomalyAtEpoch": 38
+      }
+    }
+  ]
+}

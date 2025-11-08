@@ -1,0 +1,136 @@
+{
+  "name": "Alpha Centauri Barycenter",
+  "mass": 3.991e30,
+  "radius": 0,
+  "color": "#FFFFFF",
+  "position": { "x": 4.13e16, "y": 0 },
+  "velocity": { "x": 0, "y": 0 },
+  "children": [
+    {
+      "name": "Alpha Centauri A",
+      "mass": 2.187e30,
+      "radius": 8.52e8,
+      "color": "#FFD580",
+      "orbitalElements": {
+        "a": 1.8e12,
+        "e": 0.52,
+        "argPeriapsis": 0,
+        "meanAnomalyAtEpoch": 3
+      },
+      "children": [
+        {
+          "name": "Alpha Centauri Ab",
+          "mass": 5.97e24,
+          "radius": 6371000,
+          "color": "#3399FF",
+          "orbitalElements": {
+            "a": 1.1e11,
+            "e": 0.05,
+            "argPeriapsis": 75,
+            "meanAnomalyAtEpoch": 180
+          }
+        },
+        {
+          "name": "Alpha Centauri Ac",
+          "mass": 3.5e25,
+          "radius": 15000000,
+          "color": "#FF9966",
+          "orbitalElements": {
+            "a": 2.2e11,
+            "e": 0.1,
+            "argPeriapsis": 120,
+            "meanAnomalyAtEpoch": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alpha Centauri B",
+      "mass": 1.804e30,
+      "radius": 6.03e8,
+      "color": "#FFAA66",
+      "orbitalElements": {
+        "a": 1.75e12,
+        "e": 0.52,
+        "argPeriapsis": 180,
+        "meanAnomalyAtEpoch": 3
+      },
+      "children": [
+        {
+          "name": "Alpha Centauri Bb",
+          "mass": 3.9e24,
+          "radius": 6000000,
+          "color": "#99CCFF",
+          "orbitalElements": {
+            "a": 7.5e10,
+            "e": 0.02,
+            "argPeriapsis": 45,
+            "meanAnomalyAtEpoch": 270
+          }
+        },
+        {
+          "name": "Alpha Centauri Bc",
+          "mass": 4.8e25,
+          "radius": 20000000,
+          "color": "#FFCC99",
+          "orbitalElements": {
+            "a": 3.0e11,
+            "e": 0.15,
+            "argPeriapsis": 200,
+            "meanAnomalyAtEpoch": 120
+          }
+        }
+      ]
+    },
+    {
+      "name": "Proxima Centauri",
+      "mass": 2.43e29,
+      "radius": 1.00e8,
+      "color": "#FF6600",
+      "orbitalElements": {
+        "a": 1.95e15,
+        "e": 0.0,
+        "argPeriapsis": 180,
+        "meanAnomalyAtEpoch": 0
+      },
+      "children": [
+        {
+          "name": "Proxima b",
+          "mass": 1.27e25,
+          "radius": 7150000,
+          "color": "#66FF66",
+          "orbitalElements": {
+            "a": 7.5e9,
+            "e": 0.1,
+            "argPeriapsis": 110,
+            "meanAnomalyAtEpoch": 45
+          }
+        },
+        {
+          "name": "Proxima c",
+          "mass": 5.97e25,
+          "radius": 15000000,
+          "color": "#CC99FF",
+          "orbitalElements": {
+            "a": 2.2e11,
+            "e": 0.04,
+            "argPeriapsis": 300,
+            "meanAnomalyAtEpoch": 190
+          }
+        },
+        {
+          "name": "Proxima d",
+          "mass": 2.5e24,
+          "radius": 5000000,
+          "color": "#99FF99",
+          "orbitalElements": {
+            "a": 4.0e9,
+            "e": 0.05,
+            "argPeriapsis": 10,
+            "meanAnomalyAtEpoch": 300
+          }
+        }
+      ]
+    }
+  ]
+}
