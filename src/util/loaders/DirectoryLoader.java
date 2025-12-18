@@ -1,3 +1,5 @@
+package util.loaders;
+
 import simulation.Celestial;
 import simulation.SolarSystem;
 

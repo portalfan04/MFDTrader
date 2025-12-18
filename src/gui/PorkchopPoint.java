@@ -1,3 +1,5 @@
+package gui;
+
 public class PorkchopPoint {
     public double deltaV;
     public double departureTime;

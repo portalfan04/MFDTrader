@@ -1,5 +1,6 @@
 {
   "name": "Sun",
+  "type": "STAR",
   "mass": 1.9885e30,
   "radius": 696340000,
   "color": "#FFFF00",
@@ -8,6 +9,7 @@
   "children": [
     {
       "name": "Mercury",
+      "type": "TERRESTRIAL",
       "mass": 3.3011e23,
       "radius": 2439700,
       "color": "#B2B2B2",
@@ -20,6 +22,7 @@
     },
     {
       "name": "Venus",
+      "type": "TERRESTRIAL",
       "mass": 4.8675e24,
       "radius": 6051800,
       "color": "#FFD580",
@@ -32,6 +35,7 @@
     },
     {
       "name": "Earth",
+      "type": "TERRESTRIAL",
       "mass": 5.97237e24,
       "radius": 6371000,
       "color": "#3399FF",
@@ -44,6 +48,7 @@
       "children": [
         {
           "name": "Moon",
+          "type": "TERRESTRIAL",
           "mass": 7.35e22,
           "radius": 1737000,
           "color": "#CCCCCC",
@@ -58,6 +63,7 @@
     },
     {
       "name": "Mars",
+      "type": "TERRESTRIAL",
       "mass": 6.4171e23,
       "radius": 3389500,
       "color": "#FF3300",
@@ -70,6 +76,7 @@
       "children": [
         {
           "name": "Phobos",
+          "type": "ASTEROID",
           "mass": 1.07e16,
           "radius": 11266,
           "color": "#888888",
@@ -82,6 +89,7 @@
         },
         {
           "name": "Deimos",
+          "type": "ASTEROID",
           "mass": 1.48e15,
           "radius": 6200,
           "color": "#999999",
@@ -96,6 +104,7 @@
     },
     {
       "name": "Jupiter",
+      "type": "GASEOUS",
       "mass": 1.8982e27,
       "radius": 69911000,
       "color": "#FFCC66",
@@ -108,6 +117,7 @@
       "children": [
         {
           "name": "Io",
+          "type": "TERRESTRIAL",
           "mass": 8.93e22,
           "radius": 1821500,
           "color": "#FFDD99",
@@ -120,6 +130,7 @@
         },
         {
           "name": "Europa",
+          "type": "TERRESTRIAL",
           "mass": 4.80e22,
           "radius": 1560800,
           "color": "#EEEEFF",
@@ -132,6 +143,7 @@
         },
         {
           "name": "Ganymede",
+          "type": "TERRESTRIAL",
           "mass": 1.48e23,
           "radius": 2634100,
           "color": "#CCCCCC",
@@ -144,6 +156,7 @@
         },
         {
           "name": "Callisto",
+          "type": "TERRESTRIAL",
           "mass": 1.08e23,
           "radius": 2410300,
           "color": "#BBBBBB",
@@ -158,6 +171,7 @@
     },
     {
       "name": "Saturn",
+      "type": "GASEOUS",
       "mass": 5.6834e26,
       "radius": 58232000,
       "color": "#FFCC99",
@@ -170,6 +184,7 @@
       "children": [
         {
           "name": "Titan",
+          "type": "TERRESTRIAL",
           "mass": 1.35e23,
           "radius": 2575000,
           "color": "#FFEECC",
@@ -182,6 +197,7 @@
         },
         {
           "name": "Rhea",
+          "type": "TERRESTRIAL",
           "mass": 2.31e21,
           "radius": 763800,
           "color": "#DDDDDD",
@@ -194,6 +210,7 @@
         },
         {
           "name": "Iapetus",
+          "type": "TERRESTRIAL",
           "mass": 1.81e21,
           "radius": 734500,
           "color": "#EEEEEE",
@@ -208,6 +225,7 @@
     },
     {
       "name": "Uranus",
+      "type": "GASEOUS",
       "mass": 8.681e25,
       "radius": 25362000,
       "color": "#99FFFF",
@@ -220,6 +238,7 @@
       "children": [
         {
           "name": "Titania",
+          "type": "TERRESTRIAL",
           "mass": 3.53e21,
           "radius": 788900,
           "color": "#DDDDFF",
@@ -232,6 +251,7 @@
         },
         {
           "name": "Oberon",
+          "type": "TERRESTRIAL",
           "mass": 3.01e21,
           "radius": 761400,
           "color": "#CCCCEE",
@@ -246,6 +266,7 @@
     },
     {
       "name": "Neptune",
+      "type": "GASEOUS",
       "mass": 1.02413e26,
       "radius": 24622000,
       "color": "#6666FF",
@@ -258,6 +279,7 @@
       "children": [
         {
           "name": "Triton",
+          "type": "TERRESTRIAL",
           "mass": 2.14e22,
           "radius": 1353400,
           "color": "#AAAAFF",
@@ -272,6 +294,7 @@
     },
     {
       "name": "Pluto",
+      "type": "TERRESTRIAL",
       "mass": 1.31e22,
       "radius": 1188300,
       "color": "#CCCCCC",
@@ -284,6 +307,7 @@
     },
     {
       "name": "Ceres",
+      "type": "TERRESTRIAL",
       "mass": 9.393e20,
       "radius": 473000,
       "color": "#AAAAAA",
@@ -296,6 +320,7 @@
     },
     {
       "name": "Eris",
+      "type": "TERRESTRIAL",
       "mass": 1.66e22,
       "radius": 1163000,
       "color": "#CCCCFF",
@@ -308,6 +333,7 @@
     },
     {
       "name": "Halley",
+      "type": "ASTEROID",
       "mass": 2.2e14,
       "radius": 11000,
       "color": "#FFFFFF",

@@ -1,4 +1,4 @@
-package Ship;
+package flight;
 
 public enum ShipState
 {

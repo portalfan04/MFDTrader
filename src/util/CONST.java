@@ -1,3 +1,5 @@
+package util;
+
 public class CONST
 {
     public static final double standardG = 9.80665;

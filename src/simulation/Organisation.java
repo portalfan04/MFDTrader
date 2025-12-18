@@ -1,13 +1,13 @@
-import Ship.Ship;
-import Simulation.Celestial;
-import Simulation.Universe;
+package simulation;
+
+import flight.Ship;
 
 import java.util.ArrayList;
 
 public class Organisation
 {
     private String name;
-    private ArrayList<Ship> allShips = new ArrayList<>();
+    private ArrayList<Ship> allLegacyShips = new ArrayList<>();
     private Universe universe;
     private Celestial homeworld;
     public Organisation(String n, Universe u, Celestial hw)
@@ -18,18 +18,23 @@ public class Organisation
     }
     public void addShip(Ship s)
     {
-        allShips.add(s);
+        allLegacyShips.add(s);
     }
     public void update(double dt)
     {
-        for (Ship ship : allShips)
+        for (Ship legacyShip : allLegacyShips)
         {
-            ship.update(dt);
+            legacyShip.update(dt);
         }
     }
 
     public ArrayList<Ship> getShips()
     {
-        return allShips;
+        return allLegacyShips;
+    }
+
+    public String getName()
+    {
+        return name;
     }
 }

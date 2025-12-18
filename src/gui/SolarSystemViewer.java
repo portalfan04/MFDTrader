@@ -1,3 +1,5 @@
+package gui;
+
 import simulation.Celestial;
 import simulation.Universe;
 import util.Vector2;

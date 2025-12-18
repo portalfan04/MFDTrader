@@ -1,6 +1,14 @@
-import Util.CONST;
+package simulation;
 
-public class OrbitalElements {
+import util.CONST;
+import util.Vector2;
+
+import java.io.Serializable;
+
+public class OrbitalElements implements Serializable
+{
+    private static final long serialVersionUID = 1L;
+
     public double a;           // semi-major axis (m)
     public double e;           // eccentricity
     public double argPeriapsis; // radians
@@ -9,7 +17,8 @@ public class OrbitalElements {
 
     public double centralMass; // kg
 
-    public OrbitalElements(double a, double e, double argPeriapsisDeg, double meanAnomalyDeg, double centralMass) {
+    public OrbitalElements(double a, double e, double argPeriapsisDeg, double meanAnomalyDeg, double centralMass)
+    {
         this.a = a;
         this.e = e;
         this.argPeriapsis = Math.toRadians(argPeriapsisDeg);
@@ -19,7 +28,8 @@ public class OrbitalElements {
         this.meanMotion = Math.sqrt(mu / Math.pow(a, 3));
     }
 
-    public double getPeriod() {
+    public double getPeriod()
+    {
         return 2 * Math.PI / meanMotion;
     }
 
@@ -27,7 +37,8 @@ public class OrbitalElements {
      * Compute position in orbital plane at time t since epoch (seconds).
      * Returns vector in parent-centered frame.
      */
-    public Vector2 computePosition2D(double t) {
+    public Vector2 computePosition2D(double t)
+    {
         double M = meanAnomalyAtEpoch + meanMotion * t;
         M %= 2 * Math.PI;
 
@@ -51,7 +62,8 @@ public class OrbitalElements {
     /**
      * Compute orbital velocity in 2D orbital plane.
      */
-    public Vector2 computeVelocity2D(double t, double centralMass) {
+    public Vector2 computeVelocity2D(double t, double centralMass)
+    {
         double M = meanAnomalyAtEpoch + meanMotion * t;
         M %= 2 * Math.PI;
 
@@ -69,11 +81,24 @@ public class OrbitalElements {
         return new Vector2(vx, vy);
     }
 
-    private double solveEccentricAnomaly(double M, double e) {
+    private double solveEccentricAnomaly(double M, double e)
+    {
         double E = M;
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 15; i++)
+        {
             E = E - (E - e * Math.sin(E) - M) / (1 - e * Math.cos(E));
         }
         return E;
     }
+
+    public double getPeriapsis()
+    {
+        return a * (1.0 - e);
+    }
+
+    public double getApoapsis()
+    {
+        return a * (1.0 + e);
+    }
+
 }
